@@ -4,20 +4,19 @@ description: 安装k8s
 
 # 🍉 Install kubernetes
 
-### 系统初始化
+### 1、系统初始化
 
 {% content-ref url="../git_book/system/you-hua-jiao-ben/system_init.md" %}
 [system\_init.md](../git\_book/system/you-hua-jiao-ben/system\_init.md)
 {% endcontent-ref %}
 
-### k8s安装的系统初始化和调优
+### 2、k8s安装的系统初始化和调优
 
-```bash
-# 关闭swap
+<pre class="language-bash"><code class="lang-bash"># 关闭swap
 sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
 
 # 内核参数
-cat > kubernetes.conf <<EOF
+cat > kubernetes.conf &#x3C;&#x3C;EOF
 net.bridge.bridge-nf-call-iptables=1 
 net.bridge.bridge-nf-call-ip6tables=1 
 net.ipv4.ip_forward=1 
@@ -28,8 +27,8 @@ vm.panic_on_oom=0
 fs.inotify.max_user_instances=8192 
 fs.inotify.max_user_watches=1048576 
 fs.file-max=52706963 
-fs.nr_open=52706963 
-net.ipv6.conf.all.disable_ipv6=1 
+<strong>fs.nr_open=52706963 
+</strong>net.ipv6.conf.all.disable_ipv6=1 
 net.netfilter.nf_conntrack_max=2310720
 EOF
 cp kubernetes.conf  /etc/sysctl.d/kubernetes.conf 
@@ -38,7 +37,7 @@ sysctl -p /etc/sysctl.d/kubernetes.conf
 # 设置 rsyslogd 和 systemd journald
 mkdir /var/log/journal # 持久化保存日志的目录 
 mkdir /etc/systemd/journald.conf.d 
-cat > /etc/systemd/journald.conf.d/99-prophet.conf <<EOF
+cat > /etc/systemd/journald.conf.d/99-prophet.conf &#x3C;&#x3C;EOF
 [Journal] 
 # 持久化保存到磁盘 
 Storage=persistent 
@@ -63,14 +62,14 @@ systemctl restart systemd-journald
 cp /etc/default/grub{,.bak} 
 vim /etc/default/grub # 在    GRUB_CMDLINE_LINUX 一行添加    `numa=off` 参数，如下所示： diff /etc/default/grub.bak /etc/default/grub 
 6c6 
-< GRUB_CMDLINE_LINUX="crashkernel=auto rd.lvm.lv=centos/root rhgb quiet" 
+&#x3C; GRUB_CMDLINE_LINUX="crashkernel=auto rd.lvm.lv=centos/root rhgb quiet" 
 --- 
 > GRUB_CMDLINE_LINUX="crashkernel=auto rd.lvm.lv=centos/root rhgb quiet numa=off" 
 cp /boot/grub2/grub.cfg{,.bak} 
 grub2-mkconfig -o /boot/grub2/grub.cfg
-```
+</code></pre>
 
-### 开启ipvs
+### 3、开启ipvs
 
 ```
 # kube-proxy开启ipvs的前置条件
@@ -87,7 +86,7 @@ EOF
 chmod 755 /etc/sysconfig/modules/ipvs.modules && bash /etc/sysconfig/modules/ipvs.modules && lsmod | grep -e ip_vs -e nf_conntrack_ipv4
 ```
 
-### 安装docker
+### 4、安装docker
 
 ```
 # 安装docker
@@ -112,7 +111,7 @@ mkdir -p /etc/systemd/system/docker.service.d
 systemctl daemon-reload && systemctl restart docker && systemctl enable docker
 ```
 
-### 安装kubeadm&#x20;
+### 5、安装kubeadm&#x20;
 
 #### centos
 
@@ -149,7 +148,7 @@ apt-mark hold  kubeadm=1.18.2-00 kubelet=1.18.2-00 kubectl=1.18.2-00
 systemctl enable kubelet && sudo systemctl start kubelet
 ```
 
-### 配置kubeadm自动补全
+### 6、配置kubeadm自动补全
 
 ```
 #安装bash自动补全插件
@@ -159,7 +158,7 @@ kubectl completion bash >/etc/bash_completion.d/kubectl
 kubeadm completion bash > /etc/bash_completion.d/kubeadm
 ```
 
-### 控制节点
+### 7、控制节点
 
 获取kubeadm默认配置文件,配置文件如kubeadm-config.yaml
 
@@ -313,7 +312,7 @@ kube-flannel.yml
  kubectl apply -f  https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 ```
 
-### 计算节点
+### 8、计算节点
 
 #### 增加另外两个node节点，命令见`kubeadm-init.log`
 
@@ -322,7 +321,7 @@ kubeadm join 10.0.0.31:6443 --token abcdef.0123456789abcdef \
     --discovery-token-ca-cert-hash sha256:9ce259686edf2229293bc76060a8fdf48be381246283233010acb841e66ebb38
 ```
 
-### 查询状态
+### 9、查询状态
 
 ```
 [root@k8s-master ~]# kubectl get node
@@ -353,7 +352,7 @@ Server Version: version.Info{Major:"1", Minor:"18", GitVersion:"v1.18.2", GitCom
 
 至此已完成安装
 
-### 增加新的node
+### 10、增加新的node
 
 ```bash
 kubeadm token create --print-join-command
@@ -361,7 +360,7 @@ kubeadm token create --print-join-command
 # kubeadm join 172.16.10.7:6443 --token 6r5tir.x8d0mtki6slle6vl     --discovery-token-ca-cert-hash sha256:eed7dbd8c13dc8935ebf0d79e62db371d7cf1b6f402adbda5ba67e6e4747c213
 ```
 
-### 增加新的master
+### 11、增加新的master
 
 ```bash
 # 在master上生成用于新master加入的证书
