@@ -17,4 +17,4 @@ coverY: 0
 
 
 
-<figure><img src=".gitbook/assets/WechatIMG6.jpeg" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/wechatimg6.jpeg" alt="" width="375"><figcaption></figcaption></figure>
