@@ -1,7 +1,7 @@
 # system
 
-{% content-ref url="you-hua-jiao-ben/system_init.md" %}
-[system\_init.md](you-hua-jiao-ben/system\_init.md)
+{% content-ref url="../../linux/system_init.md" %}
+[system\_init.md](../../linux/system\_init.md)
 {% endcontent-ref %}
 
 {% content-ref url="broken-reference" %}

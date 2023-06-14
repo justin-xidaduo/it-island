@@ -1,4 +1,6 @@
-# centos7 系统初始化
+# 🥎 系统初始化
+
+## centos7
 
 ```
 # 配置hostname

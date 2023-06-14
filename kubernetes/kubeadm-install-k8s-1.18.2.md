@@ -6,8 +6,8 @@ description: 安装k8s
 
 ### 1、系统初始化
 
-{% content-ref url="../git_book/system/you-hua-jiao-ben/system_init.md" %}
-[system\_init.md](../git\_book/system/you-hua-jiao-ben/system\_init.md)
+{% content-ref url="../linux/system_init.md" %}
+[system\_init.md](../linux/system\_init.md)
 {% endcontent-ref %}
 
 ### 2、k8s安装的系统初始化和调优
