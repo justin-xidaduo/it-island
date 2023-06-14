@@ -1,4 +1,4 @@
-# go
+# ✝ go
 
 * Removed humans, they weren't doing fine with animals.
 

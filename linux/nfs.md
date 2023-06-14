@@ -1,6 +1,8 @@
-# NFS
+# 🎾 常用基础服务
 
-ubuntu 16.04 安装NFS
+## 1、NFS
+
+#### ubuntu
 
 ```bash
 # NFS Server

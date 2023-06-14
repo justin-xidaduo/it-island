@@ -6,7 +6,7 @@ description: mac
 
 ### MAC 安装sshpass
 
-{% code overflow="wrap" fullWidth="true" %}
+{% code overflow="wrap" fullWidth="false" %}
 ```bash
 brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rbbash
 ```
