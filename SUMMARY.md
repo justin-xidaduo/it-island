@@ -2,6 +2,7 @@
 
 * [🏔 IT island (IT军火库)](README.md)
 * [🛶 linux](linux/README.md)
+  * [🏐 常见问题](linux/chang-jian-wen-ti.md)
   * [🏈 常用命令](linux/command.md)
   * [🏀 OSI 七层](linux/osi.md)
   * [🥎 系统初始化](linux/system\_init.md)
@@ -57,3 +58,4 @@
   * [go env 安装配置](git\_book/go/go-env-an-zhuang-pei-zhi.md)
   * [1、数据类型](git\_book/go/untitled.md)
 * [😀 summary](summary.md)
+* [⌚ python](python.md)
