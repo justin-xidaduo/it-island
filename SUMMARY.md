@@ -52,7 +52,7 @@
     * [流量管理（Traffic management）](git\_book/istio/traffic-management/README.md)
       * [inject](git\_book/istio/traffic-management/inject.md)
       * [根据header控制版本](git\_book/istio/traffic-management/gen-ju-header-kong-zhi-ban-ben.md)
-* [go](git\_book/go/README.md)
+* [🌳 go](git\_book/go/README.md)
   * [go GC](git\_book/go/go-gc.md)
   * [基础](git\_book/go/ji-chu.md)
   * [go routine & channel](git\_book/go/go-routine-and-channel.md)
