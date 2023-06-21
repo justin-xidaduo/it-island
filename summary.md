@@ -1,6 +1,6 @@
 ---
 cover: >-
-  https://images.unsplash.com/photo-1683166218148-9a4b499955f8?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NjMwNDV8&ixlib=rb-4.0.3&q=85
+  https://images.unsplash.com/photo-1551818176-60579e574b91?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwzfHxjbG91ZCUyMG5hdGl2ZXxlbnwwfHx8fDE2ODY1NjMxNzB8MA&ixlib=rb-4.0.3&q=85
 coverY: 0
 layout: editorial
 ---
