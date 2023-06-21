@@ -160,21 +160,21 @@ docker-compose -f docker-compose.yaml exec web bundle exec rake yarn:install
 
 ### 注册用户 http://127.0.0.1:3000
 
-![](<../.gitbook/assets/image (13).png>)
+![](<../.gitbook/assets/image (7).png>)
 
 ### 修改数据库激活用户
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (13).png>)
 
 ### 创建auth 认证，iD编辑器就可以用了
 
 ![](<../.gitbook/assets/image (10).png>)
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (12).png>)
 
 注册完成后显示
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (8).png>)
 
 ### 更改iD 认证配置，开启编辑功能
 
@@ -202,11 +202,11 @@ max_number_of_way_nodes: 10000
 max_note_request_area: 50
 ```
 
-![](<../.gitbook/assets/image (14).png>)
+![](<../.gitbook/assets/image (6).png>)
 
 更改完成后iD 编辑器可用，如下
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (9).png>)
 
 ### 数据导入
 

@@ -57,15 +57,15 @@ func main() {
 // 3)Golang的协程机制是主要特点，可轻松开启上万个协程
 ```
 
-![](<../.gitbook/assets/image (12).png>)
+![](<../.gitbook/assets/image (5).png>)
 
 MPG 模式介绍
 
 
 
-![](<../.gitbook/assets/image (9).png>)
+![](<../.gitbook/assets/image (3).png>)
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (2).png>)
 
 ### 3.golang CPU 设置
 

@@ -94,7 +94,7 @@ cp fe.conf ./doris/fe/leader/conf/
 
 #### 文件夹tree
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (16).png>)
 
 #### docker-compose.yaml
 
