@@ -42,6 +42,7 @@
   * [🇦🇴 nacos](zhong-jian-jian/nacos.md)
   * [🇦🇶 doris](zhong-jian-jian/doris.md)
 * [🧩 CloudNative](cloudnative/README.md)
+  * [🎮 envoy](cloudnative/envoy.md)
   * [🎰 istio](cloudnative/istio/README.md)
     * [demo 初探](cloudnative/istio/demo-chu-tan.md)
     * [kiali](cloudnative/istio/kiali.md)
