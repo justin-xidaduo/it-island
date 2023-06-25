@@ -58,5 +58,5 @@
   * [go routine & channel](git\_book/go/go-routine-and-channel.md)
   * [go env 安装配置](git\_book/go/go-env-an-zhuang-pei-zhi.md)
   * [1、数据类型](git\_book/go/untitled.md)
-* [😀 summary](summary.md)
 * [⌚ python](python.md)
+* [😀 summary](summary.md)
