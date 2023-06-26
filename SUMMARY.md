@@ -1,6 +1,7 @@
 # Table of contents
 
-* [🏔 IT island (IT军火库)](README.md)
+* [bf9f448c225120b106b976f5cc63234b](README.md)
+* [🏔 IT island (IT军火库)](<README (1).md>)
 * [🛶 linux](linux/README.md)
   * [🏐 常见问题](linux/chang-jian-wen-ti.md)
   * [🏈 常用命令](linux/command.md)
