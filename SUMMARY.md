@@ -61,6 +61,3 @@
   * [1、数据类型](git\_book/go/untitled.md)
 * [⌚ python](python.md)
 * [😀 summary](summary.md)
-* [Untitled](baidu\_verify\_codeva-7vobb1auuj.html.md)
-* [Page 1](page-1/README.md)
-  * [baidu\_verify\_codeva 7VObb1aUUJ](page-1/baidu\_verify\_codeva-7vobb1auuj.md)
