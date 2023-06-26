@@ -1,7 +1,6 @@
 # Table of contents
 
-* [bf9f448c225120b106b976f5cc63234b](README.md)
-* [🏔 IT island (IT军火库)](<README (1).md>)
+* [🏔 IT island (IT军火库)](README.md)
 * [🛶 linux](linux/README.md)
   * [🏐 常见问题](linux/chang-jian-wen-ti.md)
   * [🏈 常用命令](linux/command.md)
@@ -62,3 +61,6 @@
   * [1、数据类型](git\_book/go/untitled.md)
 * [⌚ python](python.md)
 * [😀 summary](summary.md)
+* [Untitled](baidu\_verify\_codeva-7vobb1auuj.html.md)
+* [Page 1](page-1/README.md)
+  * [baidu\_verify\_codeva 7VObb1aUUJ](page-1/baidu\_verify\_codeva-7vobb1auuj.md)
