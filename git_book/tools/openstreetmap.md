@@ -2,11 +2,11 @@
 description: OpenStreetMap是一个可供自由编辑的世界地图，Docker 私有化部署。
 ---
 
-# OpenStreetMap
+# 🐯 OpenStreetMap
 
 官网 [https://www.openstreetmap.org/](https://www.openstreetmap.org/)
 
-openstreetmap  包括websit 和db(postgres),  数据全部保存在DB中。Docker安装部署过程制作两个镜像。
+openstreetmap 包括websit 和db(postgres), 数据全部保存在DB中。Docker安装部署过程制作两个镜像。
 
 ### service 镜像 和 db 镜像dockerfile如下
 
@@ -144,7 +144,7 @@ services:
       POSTGRES_HOST_AUTH_METHOD: trust
 ```
 
-`docker-compose up -d  启动即可`
+`docker-compose up -d 启动即可`
 
 ### 初始化数据库
 
