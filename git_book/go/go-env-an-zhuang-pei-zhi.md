@@ -1,10 +1,39 @@
-# go env 安装配置
+# go 安装配置
 
-## centos7 安装配置go环境
+## 一、MAC 安装配置
 
-## 1. go环境变量配置 (GOROOT和GOPATH)
+### 1、安装go
 
-### GOROOT  就是go的安装路径(配置如下)
+从 [https://go.dev/dl/](https://go.dev/dl/) 下载合适版本，根据安装指导进行安装。默认安装位置为 `/usr/local/go`
+
+### 2、配置GOROOT、GOPATH、GOBIN
+
+```sh
+# 编辑.zshrc
+vim ~/.zshrc
+
+export GOROOT=/usr/local/go
+export GOPATH=/Users/zhaolibin/go
+export GOBIN=$GOPATH/bin/
+export PATH=$PATH:$GOPATH/bin
+
+# check
+go env
+```
+
+
+
+
+
+
+
+##
+
+## 1、centos7 安装配置go环境
+
+### 1、go环境变量配置 (GOROOT和GOPATH)
+
+#### GOROOT 就是go的安装路径(配置如下)
 
 ```
 # 下载golang
@@ -19,7 +48,7 @@ ln -s /usr/local/go1.15.1 /usr/local/go
 
 ```
 
-### GOPATH
+#### GOPATH
 
 * `go install/go get`和 go的工具等会用到GOPATH环境变量。
 * GOPATH是作为编译后二进制的存放目的地和import包时的搜索路径 (其实也是你的工作目录, 你可以在src下创建你自己的go源文件, 然后开始工作)。
