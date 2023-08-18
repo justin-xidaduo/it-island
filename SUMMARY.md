@@ -38,6 +38,7 @@
   * [🐶 Git](git\_book/tools/git-wen-ti.md)
   * [🐯 OpenStreetMap](git\_book/tools/openstreetmap.md)
 * [🇦🇫 中间件](zhong-jian-jian/README.md)
+  * [🇧🇾 nexus](zhong-jian-jian/nexus.md)
   * [🇲🇺 redis](git\_book/database/redis/README.md)
     * [redis6.0.8 集群部署](git\_book/database/redis/redis6.0.8-ji-qun-bu-shu.md)
     * [redis docker-compose部署](git\_book/database/redis/redis-dockercompose-bu-shu.md)
