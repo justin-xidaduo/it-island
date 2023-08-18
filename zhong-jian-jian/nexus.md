@@ -235,7 +235,48 @@ kubernetes: [https://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86\
 
 docker-ce: [https://download.docker.com/linux/centos/](https://download.docker.com/linux/centos/)
 
-
+```
+[os]
+name=os
+baseurl=https://nexus.idx.space/repository/centos/\$releasever/os/\$basearch/
+enabled=1
+gpgcheck=0
+[updates]
+name=updates
+baseurl=https://nexus.idx.space/repository/centos/\$releasever/updates/\$basearch/
+enabled=1
+gpgcheck=0
+[extras]
+name=extras
+baseurl=https://nexus.idx.space/repository/centos/\$releasever/extras/\$basearch/
+enabled=1
+gpgcheck=0
+[centosplus]
+name=centosplus
+baseurl=https://nexus.idx.space/repository/centos/\$releasever/centosplus/\$basearch/
+enabled=1
+gpgcheck=0
+[configmanagement]
+name=configmanagement
+baseurl=https://nexus.idx.space/repository/centos/\$releasever/configmanagement/\$basearch/ansible-29/
+enabled=1
+gpgcheck=0
+[epel]
+name=Extra Packages for Enterprise Linux 7 - \$basearch
+baseurl=https://nexus.idx.space/repository/epel/7/\$basearch
+enabled=1
+gpgcheck=0
+[docker-ce]
+name=docker-ce
+baseurl=https://nexus.idx.space/repository/docker-ce/$releasever/$basearch/stable/
+enabled=1
+gpgcheck=0
+[kubernetes]
+name=kubernetes
+baseurl=https://nexus.idx.space/repository/kubernetes/
+enabled=1
+gpgcheck=0
+```
 
 
 
