@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🏔 IT island (IT军火库)](README.md)
+* [🏔️ IT island (IT军火库)](README.md)
 * [🛶 linux](linux/README.md)
   * [🏐 常见问题](linux/chang-jian-wen-ti.md)
   * [🏈 常用命令](linux/command.md)
@@ -8,7 +8,8 @@
   * [🥎 系统初始化](linux/system\_init.md)
   * [🎾 常用基础服务](linux/nfs.md)
   * [⚽ 三次握手，四次挥手](linux/san-ci-wo-shou-si-ci-hui-shou.md)
-* [🛳 kubernetes](kubernetes/README.md)
+* [🛳️ kubernetes](kubernetes/README.md)
+  * [🥭 kubernetes 常见优化](kubernetes/kubernetes-chang-jian-you-hua.md)
   * [🍉 Install kubernetes](kubernetes/kubeadm-install-k8s-1.18.2.md)
   * [🍌 Ingress](kubernetes/ingress.md)
   * [🍇 Rancher](kubernetes/rancher.md)
@@ -66,4 +67,4 @@
   * [1、数据类型](git\_book/go/untitled.md)
 * [⌚ python](python.md)
 * [😀 summary](summary/README.md)
-  * [❤ 高并发场景优化建议](summary/gao-bing-fa-chang-jing-you-hua-jian-yi.md)
+  * [❤️ 高并发场景优化建议](summary/gao-bing-fa-chang-jing-you-hua-jian-yi.md)
