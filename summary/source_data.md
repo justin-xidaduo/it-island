@@ -13,6 +13,10 @@ description: 一些资源链接，使用本人群晖提供
 # Node export 一键安装脚本 centos7 主机安装
 wget -O - https://dsm.zhaolibin.com:88/sre_data/install_node_export.sh  | bash -x
 
+# prometheus 2.51.2
+wget https://dsm.zhaolibin.com:88/sre_data/prometheus-2.51.2.linux-amd64.tar.gz
+# install prometheus 2.51.2
+curl https://dsm.zhaolibin.com:88/sre_data/install_prometheus.sh |bash -x
 
 
 </code></pre>
