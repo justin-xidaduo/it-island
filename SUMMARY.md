@@ -24,6 +24,8 @@
   * [🧗 待完成](kubernetes/dai-wan-cheng/README.md)
     * [源码解读（1.18.2）](git\_book/kubernetes/yuan-ma-jie-du-1.18.2/README.md)
     * [🍈 RBAC](kubernetes/dai-wan-cheng/rbac.md)
+* [🇦🇽 kubernetes operator](kubernetes-operator/README.md)
+  * [Page](kubernetes-operator/page.md)
 * [🧩 CloudNative](cloudnative/README.md)
   * [🎳 prometheus](cloudnative/prometheus.md)
   * [🎮 envoy](cloudnative/envoy.md)
