@@ -25,7 +25,7 @@
     * [源码解读（1.18.2）](git\_book/kubernetes/yuan-ma-jie-du-1.18.2/README.md)
     * [🍈 RBAC](kubernetes/dai-wan-cheng/rbac.md)
 * [🇦🇽 kubernetes operator](kubernetes-operator/README.md)
-  * [Page](kubernetes-operator/page.md)
+  * [Client-go](kubernetes-operator/client-go.md)
 * [🧩 CloudNative](cloudnative/README.md)
   * [🎳 prometheus](cloudnative/prometheus.md)
   * [🎮 envoy](cloudnative/envoy.md)
