@@ -44,7 +44,4 @@ spec:
 
 #### 然后登录http://\*\*\*\*\*\*/kiali
 
-![](<../../.gitbook/assets/image (1).png>)
-
-
-
+![](<../../.gitbook/assets/image (1) (1).png>)

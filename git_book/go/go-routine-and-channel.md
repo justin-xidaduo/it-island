@@ -4,7 +4,7 @@ description: go 协程和管道
 
 # go routine & channel
 
-### 1.进程 、线程&#x20;
+### 1.进程 、线程
 
 自行百度
 
@@ -57,15 +57,13 @@ func main() {
 // 3)Golang的协程机制是主要特点，可轻松开启上万个协程
 ```
 
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (5) (1).png>)
 
 MPG 模式介绍
 
+![](<../../.gitbook/assets/image (3) (1).png>)
 
-
-![](<../../.gitbook/assets/image (3).png>)
-
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
 ### 3.golang CPU 设置
 
@@ -84,4 +82,3 @@ func main() {
 	runtime.GOMAXPROCS(cpuNum - 1)
 }
 ```
-

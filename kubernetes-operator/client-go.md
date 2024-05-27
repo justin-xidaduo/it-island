@@ -6,7 +6,7 @@ kubectl 来进行命令行控制k8s集群，原理是调用k8s  apiserver 进行
 
 
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 #### 控制器逻辑：
 
