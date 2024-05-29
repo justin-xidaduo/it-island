@@ -20,7 +20,7 @@
   * [🍏 Pod HealthCheck](kubernetes/pod-healthcheck.md)
   * [🍒 优雅终止](kubernetes/you-ya-zhong-zhi.md)
   * [🍑 Request Limit](kubernetes/request-limit.md)
-  * [其他](kubernetes/qi-ta.md)
+  * [🥭 其他](kubernetes/qi-ta.md)
   * [🧗 待完成](kubernetes/dai-wan-cheng/README.md)
     * [源码解读（1.18.2）](git\_book/kubernetes/yuan-ma-jie-du-1.18.2/README.md)
     * [🍈 RBAC](kubernetes/dai-wan-cheng/rbac.md)
