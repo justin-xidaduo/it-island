@@ -17,6 +17,7 @@
   * [🍋 Docker](kubernetes/docker.md)
   * [🍐 各组件功能](kubernetes/ge-zu-jian-gong-neng.md)
   * [🍊 Pod 创建流程](kubernetes/pod-chuang-jian-liu-cheng.md)
+  * [🍍 Pod 状态](kubernetes/pod-zhuang-tai.md)
   * [🍏 Pod HealthCheck](kubernetes/pod-healthcheck.md)
   * [🍒 优雅终止](kubernetes/you-ya-zhong-zhi.md)
   * [🍑 Request Limit](kubernetes/request-limit.md)
