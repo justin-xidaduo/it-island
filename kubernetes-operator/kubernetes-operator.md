@@ -1,0 +1,10 @@
+# 🇦🇩 kubernetes operator
+
+Operator 就可以看成是CRD和Controller 的一种组合特例，Operator是一种思想，它结合了特定领域知识并通过CRD机制扩展了Kubernetes API 资源，使用户管理Kubernetes的内置资源（Pod、Deployment等）一样创建、配置和管理应用程序，Operator是一个特定的应用程序控制器，通过扩展Kubernetes API资源代表Kubernetes用户创建、配置、管理复杂应用程序的实例，通常包含资源模型定义和控制器，通过Operator通常是为了实现某种特定软件（通常是由状态服务）的自动化运维。
+
+我们完全可以通过上面的方式编写一个CRD对象，然后手动实现一个对应的Controller就可以实现一个Operator，但是我们也发现从头开始去构建一个CRD控制器并不容易，需要对Kubernetes的API有深入的了解，并且RBAC集成、镜像构建、持续集成和部署都需要很大的工作量，为了解决这个问题，社区退出了对应的简单易用的Operator框架，比较主流的就是kubebuilder和Operator Framework，这两个框架的使用基本上差别不大，我们可以根据自己的习惯选择一个即可，我们这里使用Operator Framework 简要说明下Operator的开发。
+
+
+
+Operator Franework
+
