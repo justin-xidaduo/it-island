@@ -25,6 +25,8 @@
   * [🍍 calico flannel 区别](kubernetes/calico-flannel-qu-bie.md)
   * [🥭 其他](kubernetes/qi-ta.md)
   * [🥭 eks升级](kubernetes/eks-sheng-ji.md)
+  * [🥝 thanos](kubernetes/thanos.md)
+  * [argocd](kubernetes/argocd.md)
   * [🧗 待完成](kubernetes/dai-wan-cheng/README.md)
     * [源码解读（1.18.2）](git_book/kubernetes/yuan-ma-jie-du-1.18.2/README.md)
     * [🍈 RBAC](kubernetes/dai-wan-cheng/rbac.md)
